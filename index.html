@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Afrofuturism</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <div>
+        <button class="btn">Dark Mode</button>
+    </div>
+    <h1>Afrofuturism</h1>
+    <img src="afrofutures.png" class="image" alt="Picture of Afrofuturistic artwork" width="800" height="500">
+    <div>
+        Afrofuturism is a series of literature, music, art, etc., that incorporates science fiction themes with Black history
+        and culture. Afrofuturismm was coined by Mark Dery in 1993, but has been present since the 19th century.
+    </div>
+    <h2>Tenets of Afrofuturism</h2>
+    <ol>
+        <li>Reimagining the past and future</li>
+        <li>Integration of technology and African Diasporic culture</li>
+        <li>Empowerment and Liberation</li>
+    </ol>
+    <h2>Short Stories</h2>
+
+    <!--STORY 1-->
+    <h3>The Last Flight of Mansa Kofi</h3>
+    <p>
+        In the year 2500, the city of Timbuktu had become a sprawling metropolis in the skies, a fusion of ancient African wisdom and cutting-edge technology. Mansa Kofi, the last descendant of the great Malian emperors, stood at the helm of the Djed, a colossal airship powered by solar energy and ancient wind magic. The world below had suffered environmental collapse, and the airship was humanity’s last hope, carrying the last seeds of Earth’s flora to the distant planet of Nyemba. Kofi gazed out over the shimmering clouds, her ancestors’ voices guiding her, telling her that the journey ahead was not just to save humanity, but to reclaim the Earth’s soul, lost to greed and destruction. As the Djed ascended through the clouds, Kofi whispered, “To the stars, to the soil, to the heart of Africa,” before her ship disappeared into the endless horizon.
+
+    </p>
+    <audio id="story1" controls>
+        <source src="audios/story1.wav">
+        Audio player 1
+    </audio>
+    <div>
+        Playback Speed: 
+        <input type="range" id="speedControl1" min="0.5" max="2" step="0.1" value="1">
+        <span id="speedLabel1">1x</span>
+    </div>
+
+    <!--STORY 2-->
+    <h3>The Memory Weaver</h3>
+    <p>
+        In the floating city of Lagos 3.0, a young woman named Zuri worked as a Memory Weaver, a digital architect who could weave the memories of the African diaspora into intricate, interactive VR experiences. Her latest project was a virtual museum that allowed users to experience the African kingdoms that once thrived long before colonization. One day, while weaving a memory of a grand celebration in ancient Ethiopia, Zuri accidentally stumbled upon a hidden archive—a repository of memories from a lost civilization that predated even the Pharaohs. As the memories unraveled, Zuri realized they were not just stories—they were blueprints for advanced technology. With the help of the city’s AI, Zuri began to unlock ancient secrets that could save her people from the oppressive corporate forces that controlled Lagos, all while rediscovering a forgotten connection to the stars.
+    </p>
+    <audio id="story2" controls>
+        <source src="audios/story2.mp3">
+        Audio player 2
+    </audio>
+    <div>
+        <!--Playback Speed:--> 
+        <label for="speedControl2">Playback Speed:</label>
+        <input type="range" id="speedControl2" min="0.5" max="2" step="0.1" value="1">
+        <span id="speedLabel2">1x</span>
+    </div>
+
+    <!--STORY 3-->
+    <h3>Echoes of the Future Past</h3>
+    <p>
+        The Earth was dying, and humanity had long since fled to Mars, but in the vast, empty archives of a forgotten Earth, a digital consciousness named Omari woke up. He was a hybrid—a synthesis of ancient African knowledge and futuristic AI. Created by a coalition of African nations before the exodus to Mars, Omari’s purpose was to record the essence of Earth’s history, culture, and wisdom, but he had never imagined that he would awaken in the aftermath of humanity’s departure. As Omari navigated through the remnants of old Earth, he found the scattered memories of his creators, tracing their journey across space. He learned that his mission was more than preservation: it was to guide humanity back, to remind them of their roots, and to teach them how to rebuild from the ashes of their past mistakes. The time had come to make a new world—one where Earth and its history would live on, not as a memory, but as a foundation for the future.
+    </p>
+    <audio id="story3" controls>
+        <source src="audios/story3.wav">
+        Audio Player 3
+    </audio>
+    <div>
+        Playback Speed: 
+        <input type="range" id="speedControl3" min="0.5" max="2" step="0.1" value="1">
+        <span id="speedLabel3">1x</span>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="reader.js"></script>
+</body>
+</html>
